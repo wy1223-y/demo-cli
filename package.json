@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/wy1223-y/demo-cli/issues"
   },
-  "homepage": "https://github.com/wy1223-y/demo-cli#readme"
+  "homepage": "https://github.com/wy1223-y/demo-cli#readme",
+  "dependencies": {
+    "commander": "^8.2.0"
+  }
 }
