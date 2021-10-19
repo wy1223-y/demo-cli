@@ -1,0 +1,25 @@
+{
+  "name": "demo-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/cli.js",
+  "bin": {
+    "cli": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wy1223-y/demo-cli.git"
+  },
+  "keywords": [
+    "131421wY"
+  ],
+  "author": "wangyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wy1223-y/demo-cli/issues"
+  },
+  "homepage": "https://github.com/wy1223-y/demo-cli#readme"
+}
