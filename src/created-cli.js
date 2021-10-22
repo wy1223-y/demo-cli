@@ -6,11 +6,12 @@ const program = new Command();
 program.version(pkg.version, "-v, --version", "output version");
 
 program
-  .command("yc <name>")
-  .description("打印name")
-  .option('-n, --name <name> [smallName]', '王艳', '考拉')
-  .action((name, option) => {
-    console.log(name, option);
+  .version('0.1.0')
+  .argument('<username>', 'user')
+  .argument('[password]', 'password', 'password')
+  .description('登录')
+  .action((username, password) => {
+    console.log('username:', username);
+    console.log('password:', password);
   });
-
 program.parse(process.argv);
