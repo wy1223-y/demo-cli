@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/wy1223-y/demo-cli#readme",
   "dependencies": {
-    "commander": "^8.2.0"
+    "commander": "^8.2.0",
+    "inquirer": "^8.2.0",
+    "shelljs": "^0.8.4"
   }
 }
